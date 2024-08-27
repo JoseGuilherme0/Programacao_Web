@@ -34,10 +34,11 @@ section {
 section .box {
     display: inline-block; 
     width: 45%; 
-    background-color: #0e02ff; 
+    background-color: #b9b8bb; 
     color: #ffffff; 
     border: 1px solid #ddd; 
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
     padding: 20px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    margin-right: 5%; 
 }
