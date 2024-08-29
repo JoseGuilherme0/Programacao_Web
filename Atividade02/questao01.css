@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #4d7db4;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    border: 1px solid rgb(109, 109, 184);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    gap:15px;
+}
+
+
+
+.paragrafo{
+    border: 1px white;
+}
+
+
+footer {
+    background-color: #4d7db4;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+}
+  
