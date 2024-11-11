@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(25, 25, 33);
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    width: 80%;
+    height: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.container-grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+}
+.left-bar{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border:1px solid #fff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(9, 9, 12);
+    transition: .3s ease-in-out;
+    cursor:pointer;
+}
+.habilidade{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.habilidade h3{
+    width: 200px;
+    padding-left: 10px;
+}
+.habilidade img{
+    width: 50px;
+}
+.habilidade:hover{
+    transform: scale(1.1);
+    text-shadow:  5px 5px 5px rgb(9, 9, 12);
+}
+.left-bar:hover{
+    background-color:rgb(35, 35, 46);
+}
+.text-habilidade{
+    color:#fff;
+    text-align: left;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding:30px;
+    color:#fff;
+    width: 700px;
+    border:1px solid #fff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(9, 9, 12);
+    transition: .3s ease-in-out;
+    cursor:pointer;
+}
+.main-content h1{
+    font-size:50px;
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration:underline;
+}
+.main-content p{
+    font-size: 22px;
+}
+.main-content:hover{
+    background-color:rgb(35, 35, 46);
+    text-shadow: 5px 5px 5px rgb(9, 9, 12);
+}
+.right-bar{
+    position: relative;
+    width: 100%; /* Certifique-se de que a div .right-bar ocupe o espaço que você deseja */
+    height: 100%; /* Define a altura da div */
+    border:1px solid greenyellow;
+    border:1px solid #fff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(9, 9, 12);
+    transition: .3s ease-in-out;
+    cursor:pointer;
+}
+
+.right-bar img{
+    width: 100%;  
+    height: 100%; 
+    object-fit:cover;
+}
+.right-bar:hover{
+    background-color:rgb(91, 91, 83);
+}
+.right-bar img:hover{
+    filter:drop-shadow(5px 5px 5px rgb(9, 9, 12))
+}
